@@ -1,12 +1,12 @@
-`Bank Customer Churn Analysis`
+# `Bank Customer Churn Analysis`
 
-`Project Overview`
+## `Project Overview`
 
 This project focuses on analyzing customer churn in the banking sector using data analytics and machine learning techniques. Customer churn refers to customers leaving a bank or discontinuing its services. By identifying the factors that contribute to customer attrition, banks can develop effective retention strategies and improve customer satisfaction.
 
 The project involves data preprocessing, exploratory data analysis (EDA), feature engineering, visualization, and predictive modeling to understand customer behavior and predict the likelihood of churn.
 
-`Objective`
+### `Objective`
 
 The primary objective of this project is to analyze customer data and identify patterns that influence customer churn.
 
@@ -22,39 +22,40 @@ The project aims to:
 
 5.Generate actionable business insights
 
-`Dataset`
+#### `Dataset`
 
 The dataset contains customer information collected from a banking institution.
 
-`Features`
+### `Features`
 
-.Feature	Description
+* Feature	Description
 
-.Customer ID	Unique customer identifier
 
-.Credit Score	Customer's credit rating
+* Customer ID	Unique customer identifier
 
-.Geography	Customer's country or region
+*Credit Score	Customer's credit rating
 
-.Gender	Customer gender
+* Geography	Customer's country or region
 
-.Age	Customer age
+* Gender	Customer gender
 
-.Tenure	Number of years with the bank
+* Age	Customer age
 
-.Balance	Account balance
+* Tenure	Number of years with the bank
 
-.Number of Products	Banking products used
+* Balance	Account balance
 
-.Has Credit Card	Credit card ownership status
+* Number of Products	Banking products used
 
-.Is Active Member	Customer activity status
+* Has Credit Card	Credit card ownership status
 
-.Estimated Salary	Customer's estimated income
+* Is Active Member	Customer activity status
 
-.Exited	Target variable indicating churn status
+* Estimated Salary	Customer's estimated income
 
-`Technologies Used`
+* Exited	Target variable indicating churn status
+
+### `Technologies Used`
 
 1.Python
 
@@ -70,7 +71,7 @@ The dataset contains customer information collected from a banking institution.
 
 7.Jupyter Notebook
 
-`Exploratory Data Analysis (EDA)`
+### `Exploratory Data Analysis (EDA)`
 
 The following analyses were performed:
 
@@ -110,43 +111,7 @@ The following analyses were performed:
 
 - Machine Learning Models
 
-The project may utilize one or more classification algorithms such as:
-
-Logistic Regression
-
-Decision Tree Classifier
-
-Random Forest Classifier
-
-K-Nearest Neighbors (KNN)
-
-Support Vector Machine (SVM)
-
-Gradient Boosting Classifier
-
-The best-performing model is selected based on evaluation metrics.
-
-`Model Evaluation`
-
-The model performance is evaluated using:
-
-Accuracy Score
-
-Precision
-
-Recall
-
-F1-Score
-
-ROC-AUC Score
-
-Confusion Matrix
-
-Classification Report
-
-These metrics help assess the effectiveness of customer churn prediction.
-
-`Key Insights`
+### `Key Insights`
 
 The analysis helps identify factors that significantly influence customer churn, such as:
 
@@ -164,7 +129,7 @@ The analysis helps identify factors that significantly influence customer churn,
 
 These insights can assist banks in designing targeted retention programs and improving customer engagement.
 
-`Project Structure`
+### `Project Structure`
 
 Bank-Customer-Churn-Analysis/
 │
@@ -175,13 +140,13 @@ Bank-Customer-Churn-Analysis/
 ├── visualizations/
 └── models/
 
-`Installation`
+### `Installation`
 
-`Clone the repository:`
+Clone the repository:
 
 git clone 
 
-Navigate to the project directory:https://github.com/Madhu241203/-Bank-Customer-Churn-Analysis.git
+`Navigate to the project directory:https://github.com/Madhu241203/-Bank-Customer-Churn-Analysis.git`
 
 cd Bank-Customer-Churn-Analysis
 
